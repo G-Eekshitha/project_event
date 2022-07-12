@@ -1,0 +1,204 @@
+<html>
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+<center>
+<h1 class="welcome" style="font-family:Pacifico;font-siz:40px;color:black;background:white;opacity:0.8;">
+  Welcome to Event management company 
+    </h1>
+    </center>
+
+<center>Please fill all your details to take up on registration !!!</center>
+
+<style>
+.cover{
+
+}
+.welcome{
+  background-color: #000000;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 40px;
+  margin: 4px 2px;
+  opacity:0.8;
+  transition: 0.3s;
+  letter-spacing: 2px;
+  transition: 0.2s;
+  font-family: Pacifico;
+    }
+
+    .welcome:hover{
+        letter-spacing:4px;
+        transition:0.2s;
+    }
+    .para{
+        background-color: #000000;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 47px;
+  margin: 4px 2px;
+  opacity:0.8;
+  transition: 0.3s;
+  letter-spacing: 2px;
+  transition: 0.2s;
+    }
+</style>
+
+<br><br><br><br><br><br>
+<center>
+    
+<p class="para" style= "font-family:'Pacifico' ; font-size:20px;">
+
+    WELCOME SPEECH <br><br>
+Don’t know where to start on a welcome speech that impresses your listeners?<br>
+Use the welcome speech guide below and tweak it to make it your own!<br><br>
+
+START WITH A SALUTATION <br><br>
+A very pleasant Morning/Afternoon/Evening to one and all,<br>
+
+Today, I would like to point your attention to our fresh faces in the<br>
+ volunteer category who are part of our history since (include a date).<br>
+
+You are here today because we are asking for your support and contributions <br>
+to our organization to realize. We grow and scale successfully only with your<br>
+ dedication towards individual and group goals. You are an integral part of our <br>
+success story and we need you as much as you need us.<br>
+
+In the coming months, you will learn and practice initiative programs via seminars<br>
+ and exclusive events designed to enhance your hands-on experience and professional skills.<br><br>
+
+INTERESTED PEOPLE CAN JOIN NOW FOR THE REGISTRATION <BR><BR><BR>
+    </p>
+
+
+<center><h1><font color="white"> JOIN NOW </h1></center>
+<style>
+
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1547127796-06bb04e4b315?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+</style>
+<center>
+
+<style>
+ div {
+  height: 700px;
+  width: 50%;
+  border: 7px outset white;
+  border-radius: 30px;
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;    
+}
+</style>
+
+<div>
+<center><img src=""></span></center>
+</br></br> </br></br>
+
+<script>
+function validate()
+{
+if(document.form1.box1.value=="")
+{
+alert("please enter your name");
+}
+if(document.form1.box2.value=="")
+{
+alert("please enter your Email Id");
+}
+if(document.form1.pass1.value=="" && document.form1.pass2.value=="")
+{
+alert("please create your password");
+}
+if(document.form1.pass1.value != document.form1.pass2.value)
+{
+alert ("password mismatch ! ! !");
+}
+if(form1.r1[0].checked==false && form1.r1[1].checked==false)
+{
+alert("please select gender option");
+}
+if(document.form1.box3.value=="")
+{
+alert("please enter your ZIP CODE");
+}S
+}
+
+function verifyPassword() {  
+  var pw = document.getElementById("pswd").value;  
+  //check empty password field  
+  if(pw == "") {  
+     document.getElementById("message").innerHTML = "**Fill the password please!";  
+     return false;  
+  }  
+   
+ //minimum password length validation  
+  if(pw.length < 8) {  
+     document.getElementById("message").innerHTML = "**Password length must be atleast 4 characters";  
+     return false;  
+  }  
+  
+//maximum length of password validation  
+  if(pw.length > 15) {  
+     document.getElementById("message").innerHTML = "**Password length must not exceed 8 characters";  
+     return false;  
+  } else {  
+     alert("Password is correct");  
+  }  
+} 
+
+</script>
+
+<form name="form1">
+
+<font color="#F08FC0"><b><font size"20">
+Name <input type="text" name="box1" size="14" > <br><br>
+
+E-mail -Id<input type="text" name="box2" size="14" > <br><br>
+<font color="#F08FC0">
+
+Password <input type="password" name="pass1" size="14" > <br><br>
+
+<body>  
+<center>  
+<h3 style="color:white">Give the same password as above</h3>  
+<h3> Verify valid password Example </h3>  
+  
+<form onsubmit ="return verifyPassword()">  
+<!-- Confirm Password -->  
+<td> Confirm Password </td>  
+<input type = "password" id = "pswd" value = "">   
+<span id = "message" style="color:red"> </span> <br><br>  
+  
+<!-- Click to verify valid password -->  
+<input type = "submit" value = "Submit">  
+  
+<!-- Click to reset fields -->  
+<button type = "reset" value = "Reset" >Reset</button><br><br>  
+
+Gender <input type="radio" name="r1"> Female <br><br>
+       <input type="radio" name="r1"> Male <br><br>
+
+ZIP CODE<input type="text" name="box3" size="8"><br><br><br><br>
+
+<button type="submit" value="submit" onclick="validate()">Submit</button><br><br>
+
+</form>  
+</center>  
+</body>  
+
+
+</form>
+</div>
+</html>
